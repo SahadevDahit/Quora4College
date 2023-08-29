@@ -1,0 +1,36 @@
+{
+  "name": "quora4college",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.13",
+    "@types/react-bootstrap": "^0.32.32",
+    "@types/react-dom": "18.2.6",
+    "@types/react-icons": "^3.0.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "font-awesome": "^4.7.0",
+    "nanoid": "^4.0.2",
+    "next": "13.4.6",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.1",
+    "socket.io-client": "^4.6.2",
+    "timeago.js": "^4.0.2",
+    "typescript": "5.1.3"
+  }
+}
