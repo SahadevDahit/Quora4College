@@ -1,7 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 
-export function profile({ children }: { children: React.ReactNode }) {
+export const metadata: Metadata = {
+  title: "chats",
+  description: "chats section",
+};
+const Chats = ({ children }: any) => {
   return <>{children}</>;
-}
+};
 
-export default profile;
+export default Chats;
