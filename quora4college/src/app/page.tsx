@@ -37,7 +37,7 @@ const Home: React.FC = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const newSocket = io("http://localhost:4000");
+    const newSocket = io(`${process.env.server}`);
     setSocket(newSocket);
     newSocket.on("Error", (error: { message: string }) => {
       alert("Error: " + error.message);
